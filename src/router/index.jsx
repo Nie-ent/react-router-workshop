@@ -15,8 +15,8 @@ const router = createBrowserRouter([
             { path: 'product', element: <ProductsPage />, loader: fetchProducts },
         ],
     },
-    { path: '*', element: <ErrorPage /> }
-
+    { path: '*', element: <ErrorPage /> },
+    { basename: "/react-router-workshop" }
 ])
 
 export default router
