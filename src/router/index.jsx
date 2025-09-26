@@ -16,7 +16,8 @@ const router = createBrowserRouter([
         ],
     },
     { path: '*', element: <ErrorPage /> },
+],
     { basename: "/react-router-workshop" }
-])
+)
 
 export default router
